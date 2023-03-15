@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    background: url("../img/fundo-portifolio.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.nbm{
+    background: rgba(255, 246, 234, 0.493);
+    position: absolute;
+    width: 100%;
+    height: 148px;
+    left: 0px;
+    top: 0px;    
+    
+}
+
+.nbm-pic{
+    margin: 0 auto 2rem auto;
+
+}
+
+.navbar li{
+   
+    font-size: 20px;
+      
+}
+
+.title{
+    font-size: 36px;
+    font-weight: normal;
+}
+
+
+li{
+    list-style: none;
+}
+
+.box{
+    background: rgba(255, 246, 234, 0.493);
+    padding: 4rem;
+    box-shadow: 2px 2px 2px;
+    border-radius: 50px;
+}
+
+.profile-pic{
+    border-radius: 80%;
+    margin: 0 auto 2rem auto;
+}
+
+.profile span{
+    font-size:  24px;
+
+}
+
+.profile p{ 
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.lista li{
+    font-size: 28px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.redes-sociais ul{
+    
+    align-items: center;
+    
+}
+.redes-sociais li{
+   
+    display: flex;
+
+    margin-top: 1rem;
+    margin: 0 auto 2rem auto;
+    
+    
+}
